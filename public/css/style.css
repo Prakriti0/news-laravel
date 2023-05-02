@@ -1,0 +1,44 @@
+
+tr,th,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color:white;
+}
+th{
+    background-color:blue;
+    color: #f1f1f1;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.d{
+    margin: 15px;
+    border: 2px solid black;
+}
+.date{
+    margin: 5px;
+}
+.n input{
+    padding: 50px;
+    width: 100%;
+}
+.n p{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+h1{
+    margin: 5px;
+    color: white;
+    border: 2px solid red;
+    background:linear-gradient(to right,red, black);
+}
+.footer{
+    background-color:lightgray;
+    display: flex;
+    justify-content: center;
+}
